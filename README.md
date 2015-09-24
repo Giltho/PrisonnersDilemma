@@ -32,4 +32,3 @@ Using these 12 strategies, I tried creating new determinist strategies using a <
 The results, although not perfect, were really promissing and open to ameliorations.
 Three very interesting points were to be recorded :
 * The average results were quite above average :  *TO DO*
-#Finir le README

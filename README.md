@@ -28,7 +28,15 @@ I used, for my study, the 12 strategies presented by J.-P. DELAHAYE in his artic
 <h2>Genetic algorithm</h2>
 Using these 12 strategies, I tried creating new determinist strategies using a <a href=https://en.wikipedia.org/wiki/Genetic_algorithm>genetic algorithm</a> that will try to get the best score possible.
 
+The goal is to optimise a vector of continue values between 0 and 1 that determine the next move that will be played based on coefficient calculated upon the statistics of the precedent rounds.
+
 <h2>Results</h2>
 The results, although not perfect, were really promissing and open to ameliorations.
 Three very interesting points were to be recorded :
-* The average results were quite above average :  *TO DO*
+* The average results were quite above average :  ![alt tag](https://raw.githubusercontent.com/Giltho/PrisonnersDilemma/master/Images/average.png) 
+* The best score I had after many tries, comming from a surprisingly good strain got the best score of all the strategies : ![alt tag](https://raw.githubusercontent.com/Giltho/PrisonnersDilemma/master/Images/best%20pop.png)
+
+Here is the histogram of all the strategies scores (it's an average since it changes every time, considering that random changes everybody's score)
+![alt tag](https://raw.githubusercontent.com/Giltho/PrisonnersDilemma/master/Images/arena.png)
+* Finally, the algorithm has a very good adaptability capacity, since it got a very good score when I tried it with only two strategies, 'always betray' and 'always cooperates", where the best score you can have is 6000 (always betray) :
+![alt tag](https://raw.githubusercontent.com/Giltho/PrisonnersDilemma/master/Images/twoStrats.png)
